@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*top header with page title*/
+header {
+  background-color: #54796d;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*nav with home and stadium links*/
+nav {
+  float: left;
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
+
+/*style of the nav links*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+ flex-grow: 1; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*footer with my name*/
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*changes how page looks on different screens*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Fenway Park&nbsp;</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<li><a href="TitlePage.html">Home</a></li>	
+      <li><a href="TDGarden.html">TD Garden</a></li>
+	  <li><a href="Fenway.html">Fenway Park</a></li>
+	  <li><a href="Gillette.html">Gillette Stadium</a></li>
+	  <li><a href="Xfinity.html">Xfinity Center</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>History of Fenway Park</h1>
+	  <img src="https://www.bostonglobe.com/resizer/XgIvbYBmtM9xL_8SsAcXo4VmxJ8=/arc-anglerfish-arc2-prod-bostonglobe/public/A6PBBNTHBVG6TCTJVJHHFEVFQA.JPG" alt="Fenway Park Exterior" style="width:400px;height:200px;">
+	  <p>Image via bostonglobe.com</p>
+	  <hr>
+    <p>Fenway Park, one of the most historic baseball stadiums in the United States, opened its gates on April 20, 1912. The stadium was built to be the new home of the Boston Red Sox and was constructed to hold roughly 35,000 fans. However, during the 1930s it was reported as many <a href="https://www.westfield.ma.edu/historical-journal/wp-content/uploads/2019/08/S14-A-Brief-History-of-Fenway-Park-by-Kevin-Jones-and-L.-Mara-Dodge.pdf">as 47,500 fans would crowd</a> into the ballpark.&nbsp;</p>
+    <p>&nbsp;When Fenway Park was originally constructed, a tall wooden fence along with wooden bleachers was built on top of a 10-foot embankment (referred to by fans as “Duffy’s cliff” in honor of Red Sox left fielder Duffy Lewis) with the purpose of blocking fans from getting a free view of the game outside on Lansdowne Street. The fire hazard of the wooden structure would end up being more costly than some free tickets for stadium owner Bob Quinn, as three separate fires in May 1926 destroyed the wall and bleaches. It wouldn’t be until Thomas Yawkey purchased the Red Sox (along with Fenway Park) in 1933 that the stadium received much-needed renovations. Construction on multiple Fenway improvements, along with the building of a new left-field wall, began during the often season in 1933. On January 5, 1934, another fire broke out at the stadium, ruining nearly all of the new construction that had been completed and going down in history as one of the most disastrous fires in Boston’s history.</p>
+    <p>One of the most notable structures of Fenway Park was born out of the 1934 renovation, a concrete and tin 37-foot wall in left field. One of the most notable features of the structure is the 127-slot hand-operated scoreboard, still in use today. From the 1934 to 1946 seasons, the wall featured ads from companies such as Lifebuoy Soap and Gem Razor Blades. In 1947, all of the advertisements were scraped off the outfield wall and painted green, and was nicknamed the “Green Monster,” a name still used today. Due to the Green Monster's height and design, it is also notorious for blocking home runs that would usually clear other MLB ballparks. In 2003, Fenway Park added seats atop the Green Monster.&nbsp;</p>
+    <p>&nbsp;Due to its age, history, and ever-changing design, Fenway Park has many unique features. One of these includes a single red seat in Section 42 (Row 37, Seat 21). This seat marks the longest home run in Fenway Park history when Ted Williams hit a ball 502 feet into right field, where the seat is today. </p>
+    <p>&nbsp;Another feature that separates Fenway Park from other MLB fields is “Pesky’s Pole” a foul pole in right field. The foul pole is named after one the most famous figures in Red Sox history, Johnny Pesky. Pesky spent 73 years in the MLB as a player, manager, and coach, 61 of those years with the Red Sox. Former Red Sox pitcher Mel Parnell is credited with naming the pole. After Johnny Pesky won a game for the Red Sox, Parnell claimed the ball striking the pole aided Pesky’s hit. </p>
+    <p>&nbsp;At 111 years old, Fenway Park is still the home of the Boston Red Sox and an iconic structure in Boston. Besides baseball games, the park has held thousands of different events including concerts, ski and snowboarding events, soccer and football games, and ice hockey games.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Designed by Maeve Wallace 2023</p>
+</footer>
+
+</body>
+</html>
+

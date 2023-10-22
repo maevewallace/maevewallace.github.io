@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/*top header with page title*/
+header {
+  background-color: darkred;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*nav with home and stadium links*/
+nav {
+  float: left;
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
+
+/*style of the nav links*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+	flex-grow: 1;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*add my name*/
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: white;
+	margin-top: auto;
+}
+
+/*changes how page looks on different screens*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Xfinity Center&nbsp;</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<li><a href="TitlePage.html">Home</a></li>	
+      <li><a href="TDGarden.html">TD Garden</a></li>
+	  <li><a href="Fenway.html">Fenway Park</a></li>
+	  <li><a href="Gillette.html">Gillette Stadium</a></li>
+	  <li><a href="Xfinity.html">Xfinity Center</a></li>	
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>History of the Xfinity Center</h1>
+	  <img src="https://assets.livenationcdn.com/uploads/xfinitycentertheater.jpeg" alt="Xfinity Center Exterior" style="width:275px;height:175px;"> <img src="https://blog.ticketmaster.com/wp-content/uploads/Xfinity-Center.jpg" alt="Xfinity Center with Band Playing" style="width:275px;height:175px;">
+	  <p>Images via Livenation.com and Blog.Ticketmaster.com</p>
+	  <hr>
+    <p>In the summer of 1986, the Great Woods Center for Performing Arts opened in Mansfield, Massachusetts. The outdoor amphitheater had a capacity of 12,000. Originally designed as an all-purpose performing arts center, the first season of Great Woods saw acts like The Pittsburgh Symphony, Yo-Yo Ma, Yitzhak Perlman, Jessye Norman, Rudolf Nureyev and Bill Cosby. </p>
+    <p>Although these are extremely famous and talented acts, they did not attract as many people as anticipated. To attract a greater audience, Great Woods was renovated to host more rock and pop acts. This meant adjusting the stage to a size that could hold bands and increasing capacity to 19,900 by adding seats to what had previously been lawn space (source). In 1999, the naming rights to Great Woods were sold, and the venue changed its name to the Tweeter Center (source).&nbsp;</p>
+    <p>Sitting on 106 acres of land, Great Woods became an extremely popular location for music festivals. The venue hosted Lollapalooza throughout the 1990s and Warped Tour from 2008-2018. In June 2008, Comcast bought the naming rights of the amphitheater, and it was renamed the Comcast Center. In 2014, when Comcast changed its name to Xfinity they also changed the name of the venue, calling it the “Xfinity Center.”</p>
+    <p>In 2010, Billboard magazine named the venue the top-grossing amphitheater of the decade. President of Live Nation New England and one of the original owners of Great Woods, Don Law said that he believes the venue has been the top-grossing amphitheater in the country since its second year – “It’s just that they’ve finally bothered to do the numbers.” (Source). &nbsp;</p>
+<p>In its 37-year history, the Xfinity Center has had many notable performances. Some of them include: Aerosmith has performed 24 shows Jimmy Buffet has performed at Xfinity 63 times over 33 years, performing every season except for 1988, 2005, 2007, and 2018 (not including the closure of the venue due to Covid-19) The Who’s concert film The Who: Live in Boston was filmed at Xfinity on September 27, 2002 Nickleback filmed parts of their music video “Rockstar” at the venue The Smiths performed at the venue on August 5, 1986, and 13 of their songs for the concert are featured on the 2017 re-release of The Queen is Dead &nbsp;</p>
+  </article>
+</section>
+<footer>
+  <p>Designed by Maeve Wallace 2023</p>
+</footer>
+
+</body>
+</html>
+
+

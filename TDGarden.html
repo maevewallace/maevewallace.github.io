@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*top header with page title*/
+header {
+  background-color: gold;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+/*nav with home and stadium links*/
+nav {
+  float: left;
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
+
+/*style of the nav links*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: lightgoldenrodyellow;
+  flex-grow: 1; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*footer with my name*/
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*changes how page looks on different screens*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>TD Garden</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="TitlePage.html">Home</a></li>	
+      <li><a href="TDGarden.html">TD Garden</a></li>
+	  <li><a href="Fenway.html">Fenway Park</a></li>
+	  <li><a href="Gillette.html">Gillette Stadium</a></li>
+	  <li><a href="Xfinity.html">Xfinity Center</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+	  
+    <h1>History of TD Garden&nbsp; &nbsp;</h1>
+	  <img src="https://blog.ticketmaster.com/wp-content/uploads/TD-Garden-e1568316426445.jpg" alt="TD Garden Exterior" style="width:400px;height:200px;">
+	  <p>Image via blog.ticketmaster.com</p>
+	 <hr>
+    <p>TD Garden, located in Boston, Massachusetts, is home to the Boston Bruins and Boston Celtics. Opening in 1995, TD Garden replaced the Boston Garden that had been the previous home of the two teams.&nbsp;</p>
+    <p>&nbsp;The Boston Garden, the predecessor of TD Garden, was built above North Station, so it was instantly accessible to people getting off trains (source). With boxing becoming one of the most popular spectator sports in the country, the Boston Garden was designed with the intention of hosting boxing matches. George “Tex” Rickard, who financed the Garden, designed the stadium in a way so that every spectator could see the “sweat on the boxers’ brows” (source). Boston Garden opened on November 17, 1928, hosting a boxing match between Dorchester native “Honey Boy” Dick Finnegan and world featherweight champion Andre Routis (source). Three days later, the Bruins played their first home game in the Boston Garden. </p>
+    <p>The original Garden had many flaws, one of which being not having to ability to hold a full-size NHL rink. The arena also had no air conditioning, which caused fog during Bruins games and caused heat exhaustion during Celtics games. By the 1970s it was clear a new arena had to be rebuilt if the teams were going to continue to play above North Station. &nbsp;</p>
+    <p>TD Garden was built next to the old Boston Garden, also over North Station. On May 8, 1992, it was announced that a new $160 million arena would be built adjacent to the original Boston Garden (source). Construction began in April 1993 and was completed in July 1995. The naming rights were sold to Shawmut Bank who merged with the Fleet Financial Group just as construction was completed, and the arena opened as the “Fleet Center.” The new arena has a capacity of 17,850 for hockey games, 19,156 for basketball games, and 19,580 for other events. In July 2005, TD Banknorth bought the naming rights of the arena and changed the name to “TD Banknorth Garden.” In July 2009, the arena name was changed from TD Banknorth Garden to just TD Garden after TD Banknorth merged with TD Bank. &nbsp;</p>
+<p>TD Garden has seen many different renovations since opening in 1995. Most notably, in April 2014, Delaware North (owner of TD Garden), announced TD Garden would be getting $70 million worth of renovations over the next two years. This included adding TD Gardens “Pro-Shop” in North Station, floor-to-ceiling redesigns of the loge and balcony concourses, adding more varied concessions, and installing WiFi throughout the stadium (source). &nbsp;&nbsp;</p>
+  </article>
+</section>
+
+<footer>
+  <p>Designed by Maeve Wallace 2023</p>
+</footer>
+
+</body>
+</html>
